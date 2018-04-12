@@ -29,7 +29,7 @@ custom:
 provider:
   name: aws
   runtime: nodejs8.10
-  stage: devchat
+  stage: dev
   region: eu-west-1
 
 # you can overwrite defaults here
