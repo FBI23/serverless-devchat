@@ -10,9 +10,54 @@ class App extends Component {
           <img src={require("./logo.svg")} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React SSR + Lambda</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+
+        {/* https://codepen.io/Antreas/pen/zWypJr */}
+
+        <div class="computer">
+          <div class="screen">
+            <div class="front square" />
+            <div class="back square" />
+            <div class="top square" />
+            <div class="left square">
+              <div class="progressbar" />
+            </div>
+            <div class="left1 square" />
+            <div class="back1 square" />
+            <div class="bottom1 square" />
+          </div>
+          <div class="screenbottom">
+            <div class="front2 square" />
+            <div class="top2 square" />
+            <div class="left2 square">
+              <div class="brownpart">
+                <div class="disc" />
+              </div>
+            </div>
+          </div>
+          <div class="screenbottombottom">
+            <div class="front3 square" />
+            <div class="left3 square" />
+            <div class="bottom3 square" />
+          </div>
+          <div class="keyboard">
+            <div class="front4 square" />
+            <div class="top4 square" />
+            <div class="left4 square" />
+            <div class="bottom4 square" />
+          </div>
+          <div class="keyboardkeys">
+            <div class="front5 square" />
+            <div class="top5 square" />
+            <div class="left5 square" />
+            <div class="bottom5 square" />
+          </div>
+          <div class="numpad">
+            <div class="front6 square" />
+            <div class="top6 square" />
+            <div class="left6 square" />
+            <div class="bottom6 square" />
+          </div>
+        </div>
       </div>
     );
   }

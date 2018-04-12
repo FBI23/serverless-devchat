@@ -14,19 +14,25 @@
 service: serverless-devchat # NOTE: update this with your service name
 
 plugins:
+  - serverless-webpack
   - serverless-offline
 
 custom:
   webpack:
     webpackConfig: ./webpack.config.js
     includeModules: true
-  serverless-offline:
-    babelOptions:
-      presets: ["es2015", "react-app"]
+    packager: 'yarn'
+  # serverless-offline:
+  #   babelOptions:
+  #     presets: ["es2015", "react-app"]
 
 # You can pin your service to only deploy with a specific Serverless version
 # Check out our docs for more details
 # frameworkVersion: "=X.X.X"
+
+package:
+  include:
+    - client/**
 
 provider:
   name: aws

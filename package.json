@@ -1,6 +1,7 @@
 {
   "name": "Devchat",
   "version": "1.0.0",
+  "homepage": "https://4vle6efo04.execute-api.eu-west-1.amazonaws.com/dev",
   "description": "",
   "main": "handler.js",
   "dependencies": {
@@ -21,7 +22,11 @@
     "babel-preset-env": "^1.6.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react-app": "^3.1.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "copy-webpack-plugin": "^4.5.1",
     "create-react-app": "^1.5.2",
+    "file-loader": "^1.1.11",
+    "url-loader": "^1.0.1",
     "webpack": "^4.5.0",
     "webpack-node-externals": "^1.6.0"
   },
