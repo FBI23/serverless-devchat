@@ -8,10 +8,10 @@
 }
 
 .App-header {
-  background-color: #222;
+  background-color:#2f1f2f;
   height: 150px;
   padding: 20px;
-  color: white;
+  color: #f99b14;
 }
 
 .App-title {
@@ -29,7 +29,7 @@
 
 body{
   margin:0;
-  background-color:#F6C3BA;
+  background-color:#2f1f2f;
 }
 .computer{
   z-index:1;
@@ -453,4 +453,17 @@ body{
   top:calc(50% - 2.5px);
   height:5px;
   background-color:#282828;
+}
+
+
+.container{
+  padding: 600px 20px;
+  width:600px;
+  margin: 0 auto;
+}
+.container p{
+  color:#f99b14;
+}
+.container h1{
+  color:#f99b14;
 }

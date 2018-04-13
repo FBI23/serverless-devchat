@@ -12,7 +12,6 @@ module.exports = {
   // Since 'aws-sdk' is not compatible with webpack,
   // we exclude all node dependencies
   optimization: {
-    // We no not want to minimize our code.
     minimize: true
   },
   performance: {
@@ -39,7 +38,7 @@ module.exports = {
           {
             loader: "url-loader",
             options: {
-              limit: 8000, // Convert images < 8kb to base64 strings
+              limit: 8000,
               name: "images/[hash]-[name].[ext]"
             }
           }
